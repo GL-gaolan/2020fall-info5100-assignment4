@@ -30,7 +30,7 @@ public class Cylinder extends Circle{
 
 
     public double getVolume(){
-        return PI*getRadius()*getRadius()*height;
+        return super.getArea()*height;
     }
 
     @Override
